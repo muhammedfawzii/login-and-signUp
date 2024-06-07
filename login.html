@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex justify-content-center align-items-center">
+    <main class=" rounded-4 py-5 d-flex flex-column">
+        <h1 class="text-center my-3">Smart Login System</h1>
+        <div class="container">
+            <input type="email" id="signInEmail" class="rounded ">
+            <label for="signInEmail">Enter your email</label>
+        </div>
+        <div class="container">
+            <input type="password" id="signInPassword" class="rounded">
+            <label for="signInPassword">Enter your Password</label>   
+        </div>
+        <p id="note" class="text-center fs-5"></p>
+        <p id="inCorrect" class="text-center fs-5"></p>
+        <div class="sign">
+            <button id="signInBtn" class="btn btn-outline-info w-100">Login</button>
+        </div>
+        <p class="text-center mt-3 text-white">you have an account?<a href="index.html">SignUp</a></p>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/login.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+</body>
+</html>
